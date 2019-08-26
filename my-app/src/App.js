@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './components/Project.js'
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Project challenge="compressing and decompressing a file" skills="Trees, Maps, Priority Queues" results="War & Peace novel (587,000 words) 3.2MB "> </Project>
     </div>
   );
 }
