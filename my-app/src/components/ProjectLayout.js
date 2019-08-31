@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Project.scss';
 
-class Project extends React.Component {
+class ProjectLayout extends React.Component {
 
 // this should be a map. {challenge: value, skills: value}
 // why is it all sideways?
@@ -33,4 +33,4 @@ class Project extends React.Component {
   }
 }
 
-export default Project;
+export default ProjectLayout;
