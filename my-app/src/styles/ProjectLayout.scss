@@ -1,0 +1,23 @@
+#project-layout {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#title {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: fixed;
+  margin: 40px -11px 0px 0px; // TRBL
+}
+
+#synopsis {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keys{
+  text-align: right;
+  margin-right: 20px;
+}

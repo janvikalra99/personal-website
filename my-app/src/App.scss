@@ -1,12 +1,13 @@
-$blue: #595959;
+$blue: #114B5F;
+$grey: #595959;
 $beige: #FFFCF9;
 
 #app-content {
   height: 100vh;
   background-color: $beige;
   font-family: 'Catamaran', sans-serif;
-  color: $blue;
-  padding: 30px 90px;
+  color: $grey;
+  padding: 30px 120px 0px; // T: 30, L/R: 120, B: 0
 }
 
 .main-content{
@@ -20,7 +21,8 @@ a {
 }
 
 a:hover{
-  text-decoration: underline;
+  // text-decoration: underline;
+  color: $blue;
 }
 
 // Removes the top gap caused by react-router-dom.
