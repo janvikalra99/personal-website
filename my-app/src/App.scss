@@ -1,0 +1,34 @@
+$blue: #595959;
+$beige: #FFFCF9;
+
+#app-content {
+  height: 100vh;
+  background-color: $beige;
+  font-family: 'Catamaran', sans-serif;
+  color: $blue;
+  padding: 30px 90px;
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+// Removes the top gap caused by react-router-dom.
+.route-wrapper {
+    position: relative;
+}
+
+h1, h2, h3 {
+  line-height: 10px;
+  font-weight: normal;
+}

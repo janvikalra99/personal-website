@@ -1,0 +1,31 @@
+$blue: #114B5F;
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1, h2 {
+  color: $blue;
+}
+
+h1 { // "Janvi Kalra"
+  font-size: 27px;
+}
+h2 { // "Computer Science & Philsophy"
+  font-size: 18px;
+}
+h3 { // "Projects, About"
+  font-size: 22px;
+}
+
+.active {
+  text-decoration: underline;
+  color: $blue;
+}
